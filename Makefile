@@ -798,6 +798,7 @@ OBJS = src/mux_fcgi.o src/mux_h1.o src/mux_h2.o src/backend.o                 \
        src/stream_interface.o src/filters.o src/http_fetch.o                  \
        src/map.o src/session.o src/sink.o src/flt_http_comp.o                 \
        src/debug.o src/tcp_rules.o src/haproxy.o src/peers.o                  \
+       src/flt_placemark.o \
        src/flt_trace.o src/queue.o src/proxy.o src/http_htx.o                 \
        src/dns.o src/raw_sock.o src/pool.o src/http_act.o                     \
        src/http_rules.o src/compression.o src/cfgparse-global.o               \
